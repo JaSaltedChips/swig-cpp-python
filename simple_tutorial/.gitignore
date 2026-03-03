@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.pkl
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exp
+*.lib
+
+# SWIG generated wrappers (optional; keep if you want tracked output)
+cpp_to_python_wrap.cxx
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
